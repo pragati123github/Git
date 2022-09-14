@@ -13,12 +13,9 @@ public class LinkListDemo {
 		list.add("Three");
 		list.add("Four");
 		
-		Iterator<String> it = list.iterator();
-		while(it.hasNext())
-		{
-			System.out.println(it.next());
+		for(String s :list) {
+			System.out.println(s);
 		}
-
 	}
 
 }
